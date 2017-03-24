@@ -1,0 +1,134 @@
+
+/*flex*/
+.flex-box {
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flex-item {
+	-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.flex-direction_column {
+	-webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-align_center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;	
+} 
+.flex-justify_center {
+	-webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.flex-wrap {
+	flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+/*基础部分*/
+#app {
+	min-height: 100%;
+}
+.pageControl {
+	background-color: #eee;
+	min-height: 100%;
+}
+
+
+
+/*micon*/
+.micon-back {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+    color: #8a8a8a;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.micon-test {
+	background:url(../images/logo.png) no-repeat center;
+	background-size: cover;
+}
+
+
+.color1 {
+	color: rgb(253,35,35);
+}
+.color2 {
+	color: rgb(255,229,58);
+}
+.color3 {
+	color:rgb(239,55,55);
+}
+
+.color8 {
+	color: rgb(39,39,39);
+}
+.color9 {
+	color: rgb(79,73,73);
+}
+.color10 {
+	color: rgb(2,2,2);
+}
+.fontSize_60{
+    font-size:.6rem;
+}
+.fontSize_48{
+    font-size:.48rem;
+}
+.fontSize_42{
+    font-size:.42rem;
+}
+.fontSize_40{
+    font-size:.40rem;
+}
+.fontSize_38{
+    font-size:.38rem;
+}
+.fontSize_36{
+    font-size:.36rem;
+}
+.fontSize_34{
+    font-size:.34rem;
+}
+.fontSize_32{
+    font-size:.32rem;
+}
+
+.fontSize_30{
+    font-size:.30rem;
+}
+.fontSize_28{
+    font-size:.28rem;
+}
+.fontSize_26{
+    font-size:.26rem;
+}
+.fontSize_24{
+    font-size:.24rem;
+}
+.fontSize_20{
+    font-size:.20rem;
+}
+.fontSize_16{
+    font-size:.16rem;
+}
+.fontSize_14{
+    font-size:.14rem;
+}
